@@ -3,7 +3,7 @@ import cv2
 #Our image
 img_file = 'car_images.jpg'
 #video = cv2.VideoCapture('')
-video = cv2.VideoCapture('')
+video = cv2.VideoCapture('dashcampedestrians.mp4')
 
 #Our pre-trained car classifier
 classifier_file = 'car_detector.xml'
